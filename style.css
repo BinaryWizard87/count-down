@@ -1,0 +1,60 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1509773896068-7fd415d91e2e?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Replace with actual Unsplash sea wave image URL */
+  background-size: cover;
+  background-position: center;
+  font-family: cursive;
+  display: flex;
+  color: azure;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  border-radius: 10px;
+}
+h1 {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(left, #0617d2, #fd3172);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p {
+  font-size: 2rem;
+  color: rgba(240, 235, 255, 0.951);
+  font-family: cursive;
+}
+#target-date {
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border: 5px solid #d6c3ef;
+
+  border-radius: 20px;
+  font-size: 25px;
+  color: dodgerblue;
+  font-weight: bold;
+}
+#timer {
+  font-size: 4em;
+  margin: 30px 0;
+}
+
+input {
+  font-family: monospace;
+  /* background: linear-gradient(90deg, #c519c8, #06dfd4);
+  -webkit-background-clip: text;
+  color: transparent; */
+  background: linear-gradient(to right, #4a26fd, #0fec38);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+span {
+  font-family: monospace;
+  font-weight: bold;
+}

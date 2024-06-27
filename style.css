@@ -44,13 +44,18 @@ p {
   font-size: 4em;
   margin: 30px 0;
 }
+#datetime {
+  font-size: 10px;
+  font-family: cursive;
+  background: linear-gradient(to right, #3f1dff, #0fec38);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 input {
   font-family: monospace;
-  /* background: linear-gradient(90deg, #c519c8, #06dfd4);
-  -webkit-background-clip: text;
-  color: transparent; */
-  background: linear-gradient(to right, #4a26fd, #0fec38);
+
+  background: linear-gradient(to right, hsl(249, 75%, 40%), #ff3301);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
